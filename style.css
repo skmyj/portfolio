@@ -1,0 +1,121 @@
+@charset   "UTF-8";
+ 
+* {
+  margin: 0;
+  padding: 0 ;
+  list-style: none;
+  text-decoration: none;
+}
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+ 
+header {
+  background: #333300;
+  color: #dddcd6;
+  padding: 20px;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+ 
+.main-menu {
+  background: #333300;
+}
+ 
+.main-menu ul li {
+  text-align: center;
+}
+ 
+.main-menu ul li a {
+  color: #dddcd6;
+  display: block;
+  padding: 10px 20px;
+}
+ 
+.main-menu ul li a:hover {
+  background: #222;
+}
+
+main {
+  background: #dddcd6;  
+}
+
+section {
+  background: #dddcd6;
+  flex: 3;
+  padding: 20px;
+}
+ 
+article {
+  background:#FFF;
+  padding: 15px;
+  margin-bottom: 10px;
+  flex: 3;
+}
+ 
+aside {
+  background: #dddcd6;
+  flex: 1;
+  padding: 20px;
+}
+
+.box{
+  background: #dddcd6;
+  flex: 1;
+  padding: 15px; 
+}
+
+footer   {
+  background: #333300;
+  color: #dddcd6;
+  padding: 20px;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+@media all and (min-width: 600px) {
+
+    .main-menu ul {
+      display: flex;
+    }
+  
+    .main-menu ul li {
+      text-align: left;
+    }
+  
+    .box {
+      display: flex;
+      font-family: 'Zen Maru Gothic', sans-serif;
+    }
+  
+    .sub-menu ul li {
+      text-align: left;
+    }
+
+    #imgSet {
+      display: flex;
+      padding: 20px;
+    }
+
+    #imgSet div {
+      width: 33.33%;
+    }
+  
+  }
+  
+  @media all and (min-width: 1025px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
